@@ -1,10 +1,12 @@
 # Dragon Ball Radar
 
-One day there will be a real life Dragon Ball Radar here
+One day there will be a real life Dragon Ball radar here
 
 ## Directory Structure
 
-`Snippets` is example code to ensure hardware works as expected
+`asserts` are files needed for the software to work
+
+`snippets` is example code to ensure hardware works as expected
 
 ## Design Decisions
 

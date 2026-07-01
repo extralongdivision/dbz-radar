@@ -6,6 +6,8 @@ One day there will be a real life Dragon Ball radar here
 
 `asserts` are files needed for the software to work
 
+`ecad` containes electronic design project files
+
 `snippets` is example code to ensure hardware works as expected
 
 ## Design Decisions

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS61169")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS61169.kicad_sym")(options "")(descr ""))
+  (lib (name "PCA9554")(type "KiCad")(uri "${KIPRJMOD}/symbols/PCA9554.kicad_sym")(options "")(descr ""))
+)

@@ -1,3 +1,3 @@
 # Snippets
 
-Place `beep.wav` in root directory of SD card for `VS1053_test_code`to work properly
+Copy files in the example folder onto the CIRCUITPY drive to run the program

@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "TPS61169")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS61169.kicad_sym")(options "")(descr ""))
   (lib (name "PCA9554")(type "KiCad")(uri "${KIPRJMOD}/symbols/PCA9554.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP7383X")(type "KiCad")(uri "${KIPRJMOD}/symbols/MCP7383X.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX17048-9")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX17048-9.kicad_sym")(options "")(descr ""))
+  (lib (name "5033981892")(type "KiCad")(uri "${KIPRJMOD}/symbols/5033981892.kicad_sym")(options "")(descr ""))
 )

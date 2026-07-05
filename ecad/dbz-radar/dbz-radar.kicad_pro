@@ -25,7 +25,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1854200|215900|45585f6f-e037-4ce3-8441-ace9ac96c70e|1d2599e4-def3-4e3f-b972-d00f56155cc7|/71bbee33-6224-4636-be0a-89c36c1c9290|/71bbee33-6224-4636-be0a-89c36c1c9290|/71bbee33-6224-4636-be0a-89c36c1c9290",
+        "open emitter and bidirectional are OK"
+      ],
+      [
+        "pin_to_pin|2514600|2235200|ad849d58-c2be-43ef-983f-5ab488791707|1d2599e4-def3-4e3f-b972-d00f56155cc7|/71bbee33-6224-4636-be0a-89c36c1c9290|/71bbee33-6224-4636-be0a-89c36c1c9290|/71bbee33-6224-4636-be0a-89c36c1c9290",
+        "open emitter and bidirectional are OK"
+      ],
+      [
+        "pin_to_pin|3200400|812800|77b212f1-4c0e-4594-8d6d-3cc310888cf7|0e724422-0040-499a-81b2-30a1709d9ace|/71bbee33-6224-4636-be0a-89c36c1c9290|/71bbee33-6224-4636-be0a-89c36c1c9290|/71bbee33-6224-4636-be0a-89c36c1c9290",
+        "open emitter and bidirectional are OK"
+      ]
+    ],
     "meta": {
       "version": 0
     },

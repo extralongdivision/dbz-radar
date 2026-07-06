@@ -4,4 +4,5 @@
   (lib (name "B2B-PH-SM4-TBLFSN_JST")(type "KiCad")(uri "${KIPRJMOD}/footprints/B2B-PH-SM4-TB.pretty")(options "")(descr ""))
   (lib (name "USB4220-03")(type "KiCad")(uri "${KIPRJMOD}/footprints/USB4220-03.pretty")(options "")(descr ""))
   (lib (name "F300-1B7H1-11040-E100")(type "KiCad")(uri "${KIPRJMOD}/footprints/F300-1B7H1-11040-E100.pretty")(options "")(descr ""))
+  (lib (name "XF2M-4015-1A")(type "KiCad")(uri "${KIPRJMOD}/footprints/XF2M-4015-1A.pretty")(options "")(descr ""))
 )

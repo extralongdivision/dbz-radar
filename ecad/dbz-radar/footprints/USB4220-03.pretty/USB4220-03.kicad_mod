@@ -475,37 +475,37 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d0dff248-485e-4b6c-ab22-873c5c04b1ae")
 	)
-	(pad "B2" smd rect
+	(pad "B4" smd rect
 		(at 1.250315 0.835025)
 		(size 0.3048 0.8382)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5cc9c25a-62f9-4f81-979e-8c9a2266dd3b")
 	)
-	(pad "B3" smd rect
+	(pad "B5" smd rect
 		(at 0.750189 0.835025)
 		(size 0.3048 0.8382)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9f9544fc-03c8-4b61-9625-39ddd156f44e")
 	)
-	(pad "B4" smd rect
+	(pad "B6" smd rect
 		(at 0.250063 0.835025)
 		(size 0.3048 0.8382)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6d8c50db-d58d-4c13-8e5c-7634bf85b249")
 	)
-	(pad "B5" smd rect
+	(pad "B7" smd rect
 		(at -0.250063 0.835025)
 		(size 0.3048 0.8382)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "39f73151-37a0-49e4-93aa-30fb20c35d74")
 	)
-	(pad "B6" smd rect
+	(pad "B8" smd rect
 		(at -0.750189 0.835025)
 		(size 0.3048 0.8382)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ebe53f95-d438-4edf-9196-4838da634d2d")
 	)
-	(pad "B7" smd rect
+	(pad "B9" smd rect
 		(at -1.250315 0.835025)
 		(size 0.3048 0.8382)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -614,4 +614,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/dbz-radar.3dshapes/usb4220-03-0880-c.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

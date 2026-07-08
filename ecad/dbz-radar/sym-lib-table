@@ -5,4 +5,5 @@
   (lib (name "MCP7383X")(type "KiCad")(uri "${KIPRJMOD}/symbols/MCP7383X.kicad_sym")(options "")(descr ""))
   (lib (name "MAX17048-9")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX17048-9.kicad_sym")(options "")(descr ""))
   (lib (name "5033981892")(type "KiCad")(uri "${KIPRJMOD}/symbols/5033981892.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4220-03")(type "KiCad")(uri "${KIPRJMOD}/symbols/USB4220-03.kicad_sym")(options "")(descr ""))
 )

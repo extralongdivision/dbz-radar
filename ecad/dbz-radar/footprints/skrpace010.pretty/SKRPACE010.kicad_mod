@@ -336,4 +336,15 @@
 		(uuid "eccd0711-62f4-4cd8-a651-09c1322100d0")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/dbz-radar.3dshapes/skrpace010.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

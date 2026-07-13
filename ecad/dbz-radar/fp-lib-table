@@ -1,8 +1,12 @@
 (fp_lib_table
   (version 7)
   (lib (name "skrpace010")(type "KiCad")(uri "${KIPRJMOD}/footprints/skrpace010.pretty")(options "")(descr ""))
-  (lib (name "B2B-PH-SM4-TBLFSN_JST")(type "KiCad")(uri "${KIPRJMOD}/footprints/B2B-PH-SM4-TB.pretty")(options "")(descr ""))
   (lib (name "USB4220-03")(type "KiCad")(uri "${KIPRJMOD}/footprints/USB4220-03.pretty")(options "")(descr ""))
   (lib (name "F300-1B7H1-11040-E100")(type "KiCad")(uri "${KIPRJMOD}/footprints/F300-1B7H1-11040-E100.pretty")(options "")(descr ""))
   (lib (name "XF2M-4015-1A")(type "KiCad")(uri "${KIPRJMOD}/footprints/XF2M-4015-1A.pretty")(options "")(descr ""))
+  (lib (name "MAX98357XTEXX")(type "KiCad")(uri "${KIPRJMOD}/footprints/MAX98357XTEXX.pretty")(options "")(descr ""))
+  (lib (name "B2B-PH-SM4-TB")(type "KiCad")(uri "${KIPRJMOD}/footprints/B2B-PH-SM4-TB .pretty")(options "")(descr ""))
+  (lib (name "MAX1704X")(type "KiCad")(uri "${KIPRJMOD}/footprints/MAX1704X.pretty")(options "")(descr ""))
+  (lib (name "M1")(type "KiCad")(uri "${KIPRJMOD}/footprints/M1.pretty")(options "")(descr ""))
+  (lib (name "1-825027-7")(type "KiCad")(uri "${KIPRJMOD}/footprints/1-825027-7.pretty")(options "")(descr ""))
 )

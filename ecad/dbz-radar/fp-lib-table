@@ -9,4 +9,5 @@
   (lib (name "MAX1704X")(type "KiCad")(uri "${KIPRJMOD}/footprints/MAX1704X.pretty")(options "")(descr ""))
   (lib (name "M1")(type "KiCad")(uri "${KIPRJMOD}/footprints/M1.pretty")(options "")(descr ""))
   (lib (name "1-825027-7")(type "KiCad")(uri "${KIPRJMOD}/footprints/1-825027-7.pretty")(options "")(descr ""))
+  (lib (name "ESP32-S3-WROOM-1")(type "KiCad")(uri "${KIPRJMOD}/footprints/ESP32-S3-WROOM-1.pretty")(options "")(descr ""))
 )

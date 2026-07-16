@@ -561,14 +561,14 @@
 		(min_thickness 0.254)
 		(filled_areas_thickness no)
 		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
 		)
 		(placement
-			(enabled no)
+			(enabled yes)
 			(sheetname "")
 		)
 		(fill
@@ -593,11 +593,11 @@
 		(min_thickness 0.254)
 		(filled_areas_thickness no)
 		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
 		)
 		(placement
 			(enabled no)

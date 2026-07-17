@@ -8558,12 +8558,6 @@
 		(uuid "ae7886bd-38cb-4340-8331-01a11e1ebdbc")
 	)
 	(junction
-		(at 86.36 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b252d968-1f3b-4b8d-bf69-00d112aa66cd")
-	)
-	(junction
 		(at 39.37 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9363,16 +9357,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 115.57) (xy 90.17 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "214fe5d3-600a-456a-b852-9be2b7802b7e")
-	)
-	(wire
-		(pts
 			(xy 181.61 176.53) (xy 181.61 179.07)
 		)
 		(stroke
@@ -9640,16 +9624,6 @@
 			(type default)
 		)
 		(uuid "2fcad831-f804-4dc4-9528-246e8bf46f30")
-	)
-	(wire
-		(pts
-			(xy 95.25 115.57) (xy 102.87 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fd31afd-fe13-41e3-b652-0901d86ad413")
 	)
 	(wire
 		(pts
@@ -11473,16 +11447,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 115.57) (xy 85.09 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9095727c-9d12-4b60-a970-127b63ca8ff0")
-	)
-	(wire
-		(pts
 			(xy 143.51 90.17) (xy 149.86 90.17)
 		)
 		(stroke
@@ -12943,7 +12907,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 114.3) (xy 86.36 115.57)
+			(xy 85.09 115.57) (xy 85.09 116.84)
 		)
 		(stroke
 			(width 0)
@@ -13760,16 +13724,6 @@
 			(type default)
 		)
 		(uuid "ff4eb637-ea99-40fe-8014-6001afabc15c")
-	)
-	(wire
-		(pts
-			(xy 85.09 115.57) (xy 86.36 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb5c131-ed43-4439-9866-751be2bf22bd")
 	)
 	(image
 		(at 292.1 110.49)
@@ -22389,7 +22343,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 86.36 114.3 0)
+		(at 85.09 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22398,7 +22352,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dabc0cb-1d53-4959-859a-c63f60ed44f1")
 		(property "Reference" "#PWR013"
-			(at 86.36 118.11 0)
+			(at 85.09 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22407,7 +22361,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 86.36 109.22 0)
+			(at 85.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22415,7 +22369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 114.3 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22424,7 +22378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 114.3 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22433,7 +22387,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 86.36 114.3 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30506,71 +30460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 102.87 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b67ec155-7730-4a46-bcd2-4996995ae506")
-		(property "Reference" "#PWR021"
-			(at 102.87 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 102.87 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe7908d6-6abc-4eaf-bcd6-f24a70048178")
-		)
-		(instances
-			(project "dbz-radar"
-				(path "/71bbee33-6224-4636-be0a-89c36c1c9290"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 187.96 92.71 0)
 		(unit 1)
@@ -30909,73 +30798,6 @@
 			(project "dbz-radar"
 				(path "/71bbee33-6224-4636-be0a-89c36c1c9290"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 92.71 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd847636-5103-4ed7-8df7-9b2aa300a800")
-		(property "Reference" "C4"
-			(at 97.028 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 97.028 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 92.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e474fd4-9fcc-4d0e-963d-cd61d0bc0f59")
-		)
-		(pin "2"
-			(uuid "510c7eb2-69c5-4e27-b2ae-bb751f84de16")
-		)
-		(instances
-			(project "dbz-radar"
-				(path "/71bbee33-6224-4636-be0a-89c36c1c9290"
-					(reference "C4")
 					(unit 1)
 				)
 			)

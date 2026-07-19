@@ -3713,144 +3713,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ5.0A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMAJ5.0A"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMAJ5.0A_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMAJ5.0A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MAX17048-9:MAX17048/9"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8442,12 +8304,6 @@
 		(uuid "6954673a-b6ea-4c34-9509-9b8bc7921f8f")
 	)
 	(junction
-		(at 44.45 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69c702b2-9c54-4c6b-bff1-0336d5a71e80")
-	)
-	(junction
 		(at 87.63 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10319,16 +10175,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 21.59) (xy 60.96 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48c5f3b9-9656-4e7f-988c-ceac510700c2")
-	)
-	(wire
-		(pts
 			(xy 172.72 229.87) (xy 184.15 229.87)
 		)
 		(stroke
@@ -11159,7 +11005,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 21.59) (xy 44.45 21.59)
+			(xy 30.48 21.59) (xy 60.96 21.59)
 		)
 		(stroke
 			(width 0)
@@ -11306,16 +11152,6 @@
 			(type default)
 		)
 		(uuid "8282cf64-828c-480c-93c9-cf65269eeca6")
-	)
-	(wire
-		(pts
-			(xy 44.45 30.48) (xy 44.45 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "836a97a9-4f0b-4066-9f4b-0db93f385592")
 	)
 	(wire
 		(pts
@@ -12586,16 +12422,6 @@
 			(type default)
 		)
 		(uuid "c0111d9c-2ecc-4158-884a-87a5cb20cc6f")
-	)
-	(wire
-		(pts
-			(xy 44.45 21.59) (xy 44.45 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c140d2f5-e992-4d3d-afda-49589ebbe498")
 	)
 	(wire
 		(pts
@@ -18269,7 +18095,7 @@
 		)
 		(uuid "1a447fe1-412e-4ebf-a844-096ba89562fb")
 	)
-	(label "EXP_IRQ"
+	(label "~{EXP_IRQ}"
 		(at 232.41 199.39 180)
 		(effects
 			(font
@@ -19219,7 +19045,7 @@
 		)
 		(uuid "f7c1faac-fcd1-4673-9ac7-8fc2f10d50f5")
 	)
-	(label "EXP_IRQ"
+	(label "~{EXP_IRQ}"
 		(at 278.13 238.76 180)
 		(effects
 			(font
@@ -24847,7 +24673,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "60519073-5df4-4d39-88e7-627266e308ad")
 		(property "Reference" "R26"
 			(at 224.282 235.966 90)
@@ -29173,7 +28999,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a0d4f2d8-7aaf-48a5-b604-2efc80628788")
 		(property "Reference" "J5"
 			(at 202.692 167.132 0)
@@ -31531,7 +31357,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c4d96d38-b651-4c80-aad5-ea8b08fde866")
 		(property "Reference" "R18"
 			(at 159.512 194.056 90)
@@ -31662,76 +31488,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ5.0A")
-		(at 44.45 26.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5d8a805-5a65-4b35-ab33-53db2497347d")
-		(property "Reference" "D2"
-			(at 46.99 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ5.0A"
-			(at 46.99 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 39.37 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 44.45 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 44.45 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83706dc1-f2b7-4e15-837f-bfbb6e950400")
-		)
-		(pin "2"
-			(uuid "6137558e-6046-47db-a242-44db0339544d")
-		)
-		(instances
-			(project "dbz-radar"
-				(path "/71bbee33-6224-4636-be0a-89c36c1c9290"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 323.85 182.88 90)
 		(unit 1)
@@ -31805,7 +31561,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c607d416-ad2a-49fd-8987-7be5fbe364c4")
 		(property "Reference" "R24"
 			(at 227.076 242.824 0)
@@ -33073,7 +32829,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d960f5a1-45ab-417c-b3a8-d9905bc7249b")
 		(property "Reference" "R16"
 			(at 145.796 194.056 90)
@@ -33336,7 +33092,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "df9b9f0a-4b43-47e5-9d56-d3af708e3c6c")
 		(property "Reference" "R28"
 			(at 236.728 225.044 90)
@@ -34332,71 +34088,6 @@
 			(project "dbz-radar"
 				(path "/71bbee33-6224-4636-be0a-89c36c1c9290"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 44.45 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4016e3c-e21a-4060-8f8f-24416f755bb7")
-		(property "Reference" "#PWR09"
-			(at 44.45 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02f49987-621e-487f-a7d4-878e58369b3d")
-		)
-		(instances
-			(project "dbz-radar"
-				(path "/71bbee33-6224-4636-be0a-89c36c1c9290"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)

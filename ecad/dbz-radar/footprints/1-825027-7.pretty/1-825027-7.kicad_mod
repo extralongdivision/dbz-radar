@@ -378,4 +378,15 @@
 		(uuid "b0625e15-28fe-455b-b304-e1e68fb5a7a1")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/dbz-radar.3dshapes/1-1825027-7.stp"
+		(offset
+			(xyz 0 3.85 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
 )

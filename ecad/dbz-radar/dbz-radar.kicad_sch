@@ -8999,7 +8999,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 201.93) (xy 232.41 201.93)
+			(xy 207.01 201.93) (xy 237.49 201.93)
 		)
 		(stroke
 			(width 0)
@@ -9706,6 +9706,16 @@
 			(type default)
 		)
 		(uuid "2f546066-cfcc-49f1-bf14-f6e0986d36eb")
+	)
+	(wire
+		(pts
+			(xy 237.49 199.39) (xy 237.49 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7528c4-b1f5-4249-888f-26d9710825e0")
 	)
 	(wire
 		(pts
@@ -18359,6 +18369,16 @@
 		)
 		(uuid "32a19fe9-8f83-416e-874b-14848a25157f")
 	)
+	(label "USB_D-"
+		(at 72.39 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3441d095-cba9-426e-9af2-a9a31f3a139a")
+	)
 	(label "VSYNC"
 		(at 172.72 207.01 0)
 		(effects
@@ -18809,16 +18829,6 @@
 		)
 		(uuid "a554a820-5482-404b-a33e-24ae23d6c421")
 	)
-	(label "USB_CONN_D+"
-		(at 64.77 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a81a9d7b-c5d8-4449-b525-8f649bf333d3")
-	)
 	(label "BATT_MONITOR-QSTRT"
 		(at 232.41 194.31 180)
 		(effects
@@ -19199,6 +19209,16 @@
 		)
 		(uuid "f6c0a105-3ea1-432d-9400-54cc1fa04e11")
 	)
+	(label "USB_D+"
+		(at 72.39 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7c1faac-fcd1-4673-9ac7-8fc2f10d50f5")
+	)
 	(label "EXP_IRQ"
 		(at 278.13 238.76 180)
 		(effects
@@ -19218,16 +19238,6 @@
 			(justify right bottom)
 		)
 		(uuid "fd0015c5-5444-4dcc-8f46-3f6848865321")
-	)
-	(label "USB_CONN_D-"
-		(at 64.77 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe1ed5fc-971e-4553-b82d-f579676b4049")
 	)
 	(label "IO36"
 		(at 396.24 167.64 180)
@@ -27197,6 +27207,72 @@
 			(project "dbz-radar"
 				(path "/71bbee33-6224-4636-be0a-89c36c1c9290"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 237.49 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8716710a-2905-42c4-9f53-7179af1e4721")
+		(property "Reference" "#PWR021"
+			(at 237.49 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 237.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 237.49 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55f9b572-e4a2-4e9e-91cf-83ef97375d05")
+		)
+		(instances
+			(project "dbz-radar"
+				(path "/71bbee33-6224-4636-be0a-89c36c1c9290"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)

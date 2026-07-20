@@ -106,28 +106,18 @@
 		(uuid "43cf4304-bf64-4397-9d22-e00147b7caf9")
 	)
 	(fp_line
-		(start -23.9 -30.21)
-		(end -23.9 -9.21)
+		(start -9.65 -8.42)
+		(end -9.15 -8.42)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fecb7269-89f8-4308-b8bf-f2ea92132d5d")
-	)
-	(fp_line
-		(start -23.9 -9.21)
-		(end -9.65 -9.21)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "05554170-f3dd-4eb6-b202-2bc3566f180d")
+		(uuid "58df0255-295c-4168-af66-655b4ac20ffc")
 	)
 	(fp_line
 		(start -9.65 10.99)
-		(end -9.65 -9.21)
+		(end -9.65 -8.42)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -146,28 +136,18 @@
 		(uuid "0bc34837-4dde-4872-8100-da34f15aa293")
 	)
 	(fp_line
-		(start 9.85 -9.21)
-		(end 9.85 10.99)
+		(start -9.15 -15.5)
+		(end -9.15 -8.42)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2c8cfc79-2cce-416c-89f5-de07e9cc16ba")
+		(uuid "a4c565eb-bebe-4501-bf0c-f9a756c8811c")
 	)
 	(fp_line
-		(start 9.85 -9.21)
-		(end 24.1 -9.21)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "77e1ae5e-8840-446a-8e4e-35bf37d8fec8")
-	)
-	(fp_line
-		(start 24.1 -30.21)
-		(end -23.9 -30.21)
+		(start 9.35 -15.5)
+		(end -9.15 -15.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -176,14 +156,34 @@
 		(uuid "2f0575a0-351a-4bae-acf2-99faefdfb228")
 	)
 	(fp_line
-		(start 24.1 -9.21)
-		(end 24.1 -30.21)
+		(start 9.35 -15.5)
+		(end 9.35 -8.42)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e73ee9d9-c2a0-4298-be21-e2b7388acd79")
+		(uuid "a7160f6f-9bf4-48f3-8191-5d639ffec2a1")
+	)
+	(fp_line
+		(start 9.85 -8.42)
+		(end 9.35 -8.42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "139f1349-3a30-49db-8fd8-d0dc6178714d")
+	)
+	(fp_line
+		(start 9.85 -8.42)
+		(end 9.85 10.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c8cfc79-2cce-416c-89f5-de07e9cc16ba")
 	)
 	(fp_line
 		(start -8.9 -15.21)
@@ -719,7 +719,7 @@
 		)
 		(polygon
 			(pts
-				(xy -23.9 -9.21) (xy 24.1 -9.21) (xy 24.1 -30.21) (xy -23.9 -30.21)
+				(xy -16.88 -9.21) (xy 17.11 -9.21) (xy 17.11 -30.22) (xy -16.88 -30.22)
 			)
 		)
 	)

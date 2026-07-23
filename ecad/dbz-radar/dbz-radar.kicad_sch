@@ -24006,7 +24006,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100nF"
 			(at 344.1763 134.62 90)
 			(effects
 				(font
@@ -24041,7 +24041,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15008"
+		(property "LCSC" "C49678"
 			(at 344.17 138.43 90)
 			(effects
 				(font
@@ -24050,7 +24050,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "YAGEO"
 			(at 344.17 138.43 90)
 			(effects
 				(font
@@ -24059,7 +24059,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "CL31A107MQHNNNE"
+		(property "MFG PN" "CC0805KRX7R9BB104"
 			(at 344.17 138.43 90)
 			(effects
 				(font
@@ -24068,7 +24068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 344.17 138.43 90)
 			(effects
 				(font

@@ -6,10 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "Dragon Ball Radar")
-		(date "2026-07-20")
-		(rev "0.1.0")
+		(date "2026-08-14")
+		(rev "α2")
 		(company "Extra Long Division")
-		(comment 1 "extralongdivision.com")
+		(comment 1 "extralongdivision.com/id/")
 		(comment 2 "Creative Commons Attribution-ShareAlike 4.0 International")
 	)
 	(lib_symbols

@@ -12,4 +12,4 @@ One day there will be a real life Dragon Ball radar here
 
 `ecad` contains electronic design project files
 
-`snippets` is example code to ensure hardware works as expected
+`examples` are example code to ensure hardware works as expected

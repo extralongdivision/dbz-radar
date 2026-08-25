@@ -24,9 +24,9 @@ for i in range(length):
 # audio = audiobusio.I2SOut(board.D1, board.D10, board.D11)
 # For Metro M4 Express
 # audio = audiobusio.I2SOut(board.D3, board.D9, board.D8)
-i2s_bit_pin = board.A1
-i2s_word_pin = board.A0
-i2s_data_pin = board.TX
+i2s_bit_pin = board.A0
+i2s_word_pin = board.RX
+i2s_data_pin = board.A1
 audio = audiobusio.I2SOut(i2s_bit_pin, i2s_word_pin, i2s_data_pin)
 sine_wave_sample = audiocore.RawSample(sine_wave, sample_rate=sample_rate)
 

@@ -192,6 +192,7 @@ board.I2C().deinit()
 i2c = busio.I2C(board.SCL, board.SDA)
 tft_io_expander = dict(board.TFT_IO_EXPANDER)
 #tft_io_expander['i2c_address'] = 0x38 # uncomment for rev B
+tft_io_expander["i2c_address"] = 0x27
 dotclockframebuffer.ioexpander_send_init_sequence(i2c, init_sequence_hd40015c40, **tft_io_expander)
 i2c.deinit()
 

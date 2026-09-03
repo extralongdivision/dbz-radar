@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Dragon Ball Radar")
-		(date "2026-09-01")
-		(rev "V1.1")
+		(date "2026-08-14")
+		(rev "α2")
 		(company "Extra Long Division")
 		(comment 1 "extralongdivision.com/id/")
 		(comment 2 "Creative Commons Attribution-ShareAlike 4.0 International")
@@ -25646,7 +25646,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7497002"
+		(property "LCSC" "C2682616"
 			(at 182.88 27.94 0)
 			(hide yes)
 			(show_name no)

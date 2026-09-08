@@ -10,25 +10,33 @@ heartbeat_pin = None
 hearteat_timer = RepeatTimer(HB_PERIOD)
 
 
-def heartbeat_init() -> None:
-    """Initialize Heartbeat LED."""
-    global heartbeat_pin
+class Heartbeat:
+    """Heartbeat LED control"""
 
-    board.I2C().deinit()
-    i2c = board.I2C()
-    tft_io_expander = dict(board.TFT_IO_EXPANDER)
-    tft_io_expander["i2c_address"] = 0x27
+    def __init__(self):
+        self._led_state = False
+        self._period = 0.25  # in seconds
+        self._timer = RepeatTimer(self._period)
 
-    pcf = adafruit_pca9554.PCA9554(i2c, address=tft_io_expander['i2c_address'])
-    hb = pcf.get_pin(board.BTN_UP)
-    heartbeat_pin = hb
-    heartbeat_pin.switch_to_output(LED_STATE)
+        self.pca9554_set(self._led_state)
 
+    def pca9554_set(self, val: bool) -> None:
+        """Set IO pin of PCA95544."""
+        board.I2C().deinit()
+        i2c = board.I2C()
+        tft_io_expander = dict(board.TFT_IO_EXPANDER)
+        tft_io_expander["i2c_address"] = 0x27
 
-def heartbeat() -> None:
-    """Blink LED if enough time has passed."""
-    global heartbeat_pin, LED_STATE
-    
-    if hearteat_timer.expired():
-        heartbeat_pin.switch_to_output(not LED_STATE)
-        LED_STATE = not LED_STATE
+        pcf = adafruit_pca9554.PCA9554(i2c, address=tft_io_expander['i2c_address'])
+        self._heartbeat_pin = pcf.get_pin(board.BTN_UP)
+        self._heartbeat_pin.switch_to_output(val)
+
+    def pca9554_toggle(self) -> None:
+        self.pca9554_set(not self._led_state)
+
+    def tick(self) -> None:
+        """Blink LED if enough time has passed."""
+
+        if self._timer.expired():
+            self.pca9554_toggle()
+            self._led_state = not self._led_state

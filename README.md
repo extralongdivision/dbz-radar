@@ -4,8 +4,6 @@ One day there will be a real life Dragon Ball radar here.
 
 ## Directory Structure
 
-`assets` are files needed for the software to work
-
 `bin` binary files
 
 `datasheets`for components
@@ -13,5 +11,7 @@ One day there will be a real life Dragon Ball radar here.
 `ecad` contains electronic design project files
 
 `examples` are example code to ensure hardware works as expected
+
+`graphics-projects` project files used for images
 
 `src` source code to be copied to the `CIRCUITPY` drive

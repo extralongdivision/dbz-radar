@@ -1,19 +1,18 @@
 import adafruit_pca9554
 import board
 import digitalio
-import time
 
+from utils import RepeatTimer
 
-last_blink = time.monotonic()
 LED_STATE = False
 HB_PERIOD = 0.250  # in seconds
 heartbeat_pin = None
+hearteat_timer = RepeatTimer(HB_PERIOD)
 
 
 def heartbeat_init() -> None:
     """Initialize Heartbeat LED."""
-    global heartbeat_pin, last_blink
-    last_blink = time.monotonic()
+    global heartbeat_pin
 
     board.I2C().deinit()
     i2c = board.I2C()
@@ -28,20 +27,8 @@ def heartbeat_init() -> None:
 
 def heartbeat() -> None:
     """Blink LED if enough time has passed."""
-    global heartbeat_pin, last_blink, LED_STATE
-
-    time_to_blink = False
-    current_time = time.monotonic()
-
-    # overflow
-    if current_time < last_blink:
-        time_to_blink = True
+    global heartbeat_pin, LED_STATE
     
-    # blink period elapsed
-    if (current_time - last_blink) > HB_PERIOD:
-        time_to_blink = True
-    
-    if time_to_blink:
+    if hearteat_timer.expired():
         heartbeat_pin.switch_to_output(not LED_STATE)
         LED_STATE = not LED_STATE
-        last_blink = current_time

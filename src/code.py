@@ -6,8 +6,6 @@ heartbeat = Heartbeat()
 display_init()
 beeper = Beeper()
 
-display_bitmap("/round-display-ruler-720p.bmp")
-
 while True:
     heartbeat.tick()
     beeper.tick()

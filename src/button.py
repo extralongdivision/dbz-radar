@@ -19,6 +19,7 @@ class UserButton:
 
     def is_just_pressed(self) -> bool:
         """Check if button was pressed at any point in time since last checking."""
+        self.is_pressed()
         return_value = self._was_pressed # utils.copy(self._was_pressed)
         self._was_pressed = False
         return return_value

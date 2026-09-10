@@ -210,8 +210,6 @@ def display_init() -> None:
     # Add the Group to the Display
     display.root_group = group
 
-    display_bitmap("/radar-bg.bmp")
-
     display.auto_refresh = True
 
 
@@ -220,11 +218,9 @@ def display_bitmap(img_path: str) -> None:
 
     bitmap = displayio.OnDiskBitmap(img_path)
 
+    display.auto_refresh = False
+    display_clear()
     group = display.root_group
-    try:  # try to remove what's currently on the screen
-        group.remove(0)
-    except ValueError:
-        pass # nothing on the screen
 
     # Create a TileGrid to hold the bitmap
     tile_grid = displayio.TileGrid(bitmap, pixel_shader=bitmap.pixel_shader)
@@ -235,3 +231,9 @@ def display_bitmap(img_path: str) -> None:
 
     # place bitmap onto display
     group.append(tile_grid)
+    display.auto_refresh = True
+
+def display_clear() -> None:
+    """Remove everything on screen"""
+    group = displayio.Group()
+    display.root_group = group

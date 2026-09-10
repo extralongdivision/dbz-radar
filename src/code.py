@@ -1,7 +1,9 @@
 from audio import Beeper
-from display import display_bitmap, display_init
+from button import UserButton
+from display import display_init
 from heartbeat import Heartbeat
 
+button = UserButton()
 heartbeat = Heartbeat()
 display_init()
 beeper = Beeper()
@@ -9,4 +11,7 @@ beeper = Beeper()
 while True:
     heartbeat.tick()
     beeper.tick()
+    button.is_pressed()
+    if button.is_just_pressed():
+        print("Doing something cool")
     pass  # infinite loop to keep image on display

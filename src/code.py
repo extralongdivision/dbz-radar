@@ -1,6 +1,6 @@
 from audio import Beeper
 from button import UserButton
-from display import display_bitmap, display_clear, display_init
+from display import Display
 from heartbeat import Heartbeat
 
 button = UserButton()
@@ -17,7 +17,7 @@ class AppState:
     SENSING = 3
 
 
-display_init()
+display = Display()
 beeper = Beeper()
 state = AppState.IDLE
 
@@ -30,12 +30,13 @@ while True:
             state = AppState.WAKEUP
         elif state == AppState.SENSING:
             print("SENSING->IDLE")
-            display_clear()
+            display.clear()
             state = AppState.IDLE
 
     if state == AppState.WAKEUP:
         print("Waking up...")
-        display_bitmap("/radar-bg.bmp")
+        beeper.tick()
+        display.radar_bg()
         print("WAKEUP->SENSING")
         state = AppState.SENSING
     elif state == AppState.SENSING:

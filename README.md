@@ -1,3 +1,7 @@
+<a href="https://codeberg.org/extralongdivision/extralongdivision-site/">
+    <img alt="Get it on Codeberg" src="https://get-it-on.codeberg.org/get-it-on-blue-on-white.png" height="60">
+</a>
+
 # Dragon Ball Radar
 
 One day there will be a real life Dragon Ball radar here.

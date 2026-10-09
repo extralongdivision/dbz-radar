@@ -58,7 +58,7 @@ Find the files you need using the descriptions below.
 
 `LICENSES` for the components of this project
 
-`mcad` mechanical design files for 3D printing or modification #FIXME TODO
+`mcad` mechanical design files for 3D printing or modification
 
 `media`photos used in this README
 
